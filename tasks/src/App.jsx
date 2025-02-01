@@ -3,15 +3,9 @@ import ReactDOM from "react-dom/client";
 
 import "./index.css";
 
-
-const UsersTestControl = lazy(() => import('users/UsersTestControl').catch(() => {
-  return { default: () => <div className='error'>Component is not available!</div> };
-})
-);
-
 const App = () => (
   <div className="container">
-    <UsersTestControl></UsersTestControl>
+    asd
   </div>
 );
 const rootElement = document.getElementById("app")
